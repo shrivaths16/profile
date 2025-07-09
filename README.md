@@ -1,2 +1,2 @@
 # profile
-Personal Website of Shrivaths
+Personal Website of Shrivaths Shyam
