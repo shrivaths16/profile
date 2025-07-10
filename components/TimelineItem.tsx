@@ -1,5 +1,5 @@
 import { Experience } from '../data/portfolioData';
-import { FaMapPin } from 'react-icons/fa'; // Import an icon
+import { FaMapPin } from 'react-icons/fa6'; // Import an icon
 
 interface TimelineItemProps {
   item: Experience;

@@ -1,5 +1,5 @@
 import { Project } from '../data/portfolioData';
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 interface ProjectCardProps {
   project: Project;
@@ -12,13 +12,13 @@ const ProjectCard = ({ project }: ProjectCardProps) => (
         <h3 className="text-xl font-bold">{project.name}</h3>
         {project.link && (
           <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500">
-            <FaExternalLinkAlt />
+            <FaArrowUpRightFromSquare />
           </a>
         )}
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">{project.date}</p>
       <p className="text-gray-800 dark:text-gray-200 mb-1">{project.description}</p>
-      {/* <p className="text-sm text-gray-600 dark:text-gray-300">{project.longDescription}</p> */}
+      <p className="text-sm text-gray-600 dark:text-gray-300">{project.longDescription}</p>
     </div>
     <div className="flex flex-wrap gap-2 mt-4">
       {project.tags.map((tag, tagIndex) => (

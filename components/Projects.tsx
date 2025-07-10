@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 import { projects } from '../data/portfolioData';
 import ProjectCard from './ProjectCard';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
 
 const Projects = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);

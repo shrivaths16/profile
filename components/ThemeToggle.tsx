@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
-import { FaSun, FaMoon } from 'react-icons/fa';
+import { FaSun, FaMoon } from 'react-icons/fa6';
 
 const ThemeToggle = () => {
   const [mounted, setMounted] = useState(false);
