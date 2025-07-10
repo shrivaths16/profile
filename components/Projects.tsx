@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 import { projects } from '../data/portfolioData';
 import ProjectCard from './ProjectCard';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
+// import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
 
 const Projects = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -55,7 +55,8 @@ const Projects = () => {
             className="absolute top-1/2 left-0 -translate-y-1/2 z-10 p-2 bg-white/50 dark:bg-gray-800/50 rounded-full shadow-md hover:bg-white dark:hover:bg-gray-700 transition"
             aria-label="Scroll left"
           >
-            <FaChevronLeft size={24} />
+            {/* <FaChevronLeft size={24} /> */}
+            <i className="fa-solid fa-chevron-left fa-xl"></i>
           </button>
         )}
 
@@ -76,7 +77,8 @@ const Projects = () => {
             className="absolute top-1/2 right-0 -translate-y-1/2 z-10 p-2 bg-white/50 dark:bg-gray-800/50 rounded-full shadow-md hover:bg-white dark:hover:bg-gray-700 transition"
             aria-label="Scroll right"
           >
-            <FaChevronRight size={24} />
+            {/* <FaChevronRight size={24} /> */}
+            <i className="fa-solid fa-chevron-right fa-xl"></i>
           </button>
         )}
 

@@ -1,5 +1,5 @@
 import { Experience } from '../data/portfolioData';
-import { FaMapPin } from 'react-icons/fa6'; // Import an icon
+// import { FaMapPin } from 'react-icons/fa6'; // Import an icon
 
 interface TimelineItemProps {
   item: Experience;
@@ -21,7 +21,8 @@ const TimelineItem = ({ item }: TimelineItemProps) => (
     <div className="mb-2 flex flex-wrap items-center gap-x-4 gap-y-1">
       <h4 className="font-medium text-blue-500 dark:text-blue-400 text-lg">{item.company}</h4>
       <div className="flex items-center gap-1 text-base text-gray-600 dark:text-gray-400">
-        <FaMapPin />
+        {/* <FaMapPin /> */}
+        <i className="fa-solid fa-map-pin"></i>
         <span>{item.location}</span>
       </div>
     </div>

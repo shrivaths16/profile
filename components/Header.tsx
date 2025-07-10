@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ThemeToggle from './ThemeToggle';
 import { useScroll } from '../hooks/useScroll';
-import { FaBars, FaXmark } from 'react-icons/fa6'; // Hamburger and close icons
+// import { FaBars, FaXmark } from 'react-icons/fa'; // Hamburger and close icons
 
 const Header = () => {
   const isScrolled = useScroll();
@@ -38,7 +38,8 @@ const Header = () => {
           <div className="md:hidden flex items-center">
             <ThemeToggle />
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="ml-4" aria-label="Open menu">
-              <FaBars size={24} />
+              {/* <FaBars size={24} /> */}
+              <i className="fa-solid fa-bars fa-xl"></i>
             </button>
           </div>
         </nav>
@@ -54,7 +55,8 @@ const Header = () => {
       >
         <div className="flex justify-end p-6">
           <button onClick={() => setIsMenuOpen(false)} aria-label="Close menu">
-            <FaXmark size={28} />
+            {/* <FaXmark size={28} /> */}
+            <i className="fa-solid fa-times fa-2xl"></i>
           </button>
         </div>
         <div className="flex flex-col items-center justify-center h-full -mt-16 space-y-8">

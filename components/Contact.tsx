@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa6';
+// import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa6';
 
 const Contact = () => (
   <section id="contact" className="text-center scroll-mt-20">
@@ -7,9 +7,9 @@ const Contact = () => (
       I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team. Feel free to reach out!
     </p>
     <div className="flex justify-center space-x-6 text-3xl">
-      <a href="https://github.com/shrivaths16" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500"><FaGithub /></a>
-      <a href="https://www.linkedin.com/in/shrivaths-shyam/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500"><FaLinkedin /></a>
-      <a href="mailto:shrivaths1998@gmail.com" className="hover:text-blue-500"><FaEnvelope /></a>
+      <a href="https://github.com/shrivaths16" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500"><i className="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shrivaths-shyam/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500"><i className="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:shrivaths1998@gmail.com" className="hover:text-blue-500"><i className="fa-solid fa-envelope"></i></a>
     </div>
   </section>
 );
