@@ -5,10 +5,13 @@ const About = () => (
       {/* Widen the container and increase text size */}
       <div className="max-w-5xl mx-auto text-xl text-center">
         <p className="mb-4">
-          I am a dedicated and results-oriented engineer with a strong foundation in software development...
+        I'm an AI Engineer and Full-Stack Developer passionate about building intelligent, scalable systems that bridge the gap between machine learning and real-world applications. With experience in Python, FastAPI, ReactJS, SQL, and cloud platforms like AWS, I’ve designed microservices, GPT-powered chatbots, and document parsers. I’ve built end-to-end ETL pipelines using Apache NiFi, optimized relational databases for performance, and deployed robust solutions using tools like NGINX, PM2, and Git. My work spans across AI model development, backend engineering, and front-end UI design — backed by a strong foundation in software engineering principles.
         </p>
-        <p>
-          My academic and project work has allowed me to dive deep into areas like deep learning...
+        <p className="mb-4">
+        I’ve contributed to open-source projects like SLEAP at the Salk Institute, worked on BPM systems at Cognizant, and developed cutting-edge AI applications at NLitenData.
+        </p>
+        <p className="mb-4">
+        Outside of work, I love learning about new AI tools, playing tennis, watching soccer (Go Liverpool!), and building side projects that push my technical and creative boundaries. Whether it's parsing documents, generating recommendations, or optimizing control systems with reinforcement learning, I’m always exploring new ways to solve meaningful problems with code.
         </p>
       </div>
     </section>
