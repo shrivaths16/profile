@@ -46,12 +46,28 @@ const Header = () => {
       {/* Mobile Menu Overlay... (no changes needed here) */}
       <div 
         className={`
-          fixed inset-0 z-10 bg-white dark:bg-gray-900 transition-transform duration-300 ease-in-out
+          fixed inset-0 z-20 bg-white dark:bg-gray-900 transition-transform duration-300 ease-in-out
           ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}
           md:hidden
         `}
       >
-        {/* ... */}
+      <div className="flex justify-end p-6">
+          <button onClick={() => setIsMenuOpen(false)} aria-label="Close menu">
+            <i className="fa-solid fa-times fa-2xl"></i>
+          </button>
+        </div>
+        <div className="flex flex-col items-center justify-center h-full -mt-16 space-y-8">
+          {navLinks.map(link => (
+            <a 
+              key={link.href} 
+              href={link.href} 
+              className="text-3xl font-semibold hover:text-blue-500"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {link.title}
+            </a>
+          ))}
+        </div>
       </div>
     </>
   );
