@@ -6,9 +6,9 @@ const Hero = () => {
 
   useEffect(() => {
     const timers = [
-      setTimeout(() => setAnimationStep(1), 500),   // Step 1: Image fades in
-      setTimeout(() => setAnimationStep(2), 1200),  // Step 2: Text fades in
-      setTimeout(() => setAnimationStep(3), 1600),  // Step 3: Description fades in
+      setTimeout(() => setAnimationStep(1), 500),   // Image fades in
+      setTimeout(() => setAnimationStep(2), 1200),  // Text fades in
+      setTimeout(() => setAnimationStep(3), 1600),  // Description fades in
     ];
     return () => timers.forEach(timer => clearTimeout(timer));
   }, []);
@@ -30,7 +30,7 @@ const Hero = () => {
           `}
         >
           <Image
-            src="/profile.JPG"
+            src="/profile.jpg"
             alt="Shrivaths Shyam"
             fill
             className="rounded-full object-cover"
