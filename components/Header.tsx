@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useScroll } from '../hooks/useScroll';
-import ThemeToggle from './ThemeToggle'; // 1. Import the component
+import ThemeToggle from './ThemeToggle';
 
 const Header = () => {
   const isScrolled = useScroll();
@@ -30,12 +30,12 @@ const Header = () => {
             {navLinks.map(link => (
               <a key={link.href} href={link.href} className="hover:text-blue-500 font-normal">{link.title}</a>
             ))}
-            <ThemeToggle /> {/* 2. Add toggle to desktop menu */}
+            <ThemeToggle /> {/*Add toggle to desktop menu */}
           </div>
           
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
-            <ThemeToggle /> {/* 3. Add toggle to mobile menu */}
+            <ThemeToggle /> {/*Add toggle to mobile menu */}
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="ml-4" aria-label="Open menu">
               <i className="fa-solid fa-bars fa-xl"></i>
             </button>
@@ -43,7 +43,7 @@ const Header = () => {
         </nav>
       </header>
       
-      {/* Mobile Menu Overlay... (no changes needed here) */}
+      {/* Mobile Menu Overlay */}
       <div 
         className={`
           fixed inset-0 z-20 bg-white dark:bg-gray-900 transition-transform duration-300 ease-in-out
