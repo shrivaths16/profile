@@ -1,5 +1,4 @@
 import { Experience } from '../data/portfolioData';
-import { FaBriefcase } from 'react-icons/fa'; // Import a suitable icon
 
 interface TimelineItemProps {
   item: Experience;
@@ -10,7 +9,7 @@ const TimelineItem = ({ item }: TimelineItemProps) => (
     {/* The Icon on the timeline axis */}
     <div className="z-10 flex-shrink-0 flex items-center justify-center bg-blue-500 shadow-xl w-16 h-16 rounded-full">
       {/* Always render the same icon */}
-      <FaBriefcase className="text-white text-2xl" />
+      <i className="fa-solid fa-briefcase text-white text-2xl"></i>
     </div>
 
     {/* The Experience Card */}

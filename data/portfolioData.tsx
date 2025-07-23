@@ -65,7 +65,7 @@ export const projects: Project[] = [
 
 export interface Skill {
   name: string;
-  icon: JSX.Element;
+  icon?: JSX.Element;
 }
 
 export interface SkillCategory {
@@ -77,44 +77,44 @@ export const skillCategories: SkillCategory[] = [
   {
     name: 'Programming Languages',
     skills: [
-      { name: 'Python', icon: <SiPython /> },
-      { name: 'JavaScript', icon: <SiJavascript /> },
+      { name: 'Python' },
+      { name: 'JavaScript' },
       // { name: 'TypeScript', icon: <SiTypescript /> },
-      { name: 'SQL', icon: <FaDatabase /> },
-      { name: 'HTML/CSS', icon: <SiHtml5 /> },
-      { name: 'Java', icon: <FaJava /> },
-      { name: 'C/C++', icon: <SiCplusplus /> },
+      { name: 'SQL' },
+      { name: 'HTML/CSS' },
+      { name: 'Java' },
+      { name: 'C/C++' },
     ],
   },
   {
     name: 'Frameworks & Libraries',
     skills: [
-      { name: 'Pandas', icon: <SiPandas /> },
-      { name: 'Numpy', icon: <SiNumpy /> },
-      { name: 'PyTorch', icon: <SiPytorch /> },
-      { name: 'TensorFlow', icon: <SiTensorflow /> },
-      { name: 'Plotly', icon: <SiPlotly /> },
-      { name: 'FastAPI', icon: <SiFastapi /> },
-      { name: 'React', icon: <SiReact /> },
-      { name: 'Node.js', icon: <SiNodedotjs /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
+      { name: 'Pandas' },
+      { name: 'Numpy' },
+      { name: 'PyTorch' },
+      { name: 'TensorFlow' },
+      { name: 'Plotly' },
+      { name: 'FastAPI' },
+      { name: 'React' },
+      { name: 'Node.js' },
+      { name: 'Tailwind CSS' },
     ],
   },
   {
     name: 'Tools & Technologies',
     skills: [
-      { name: 'Git', icon: <SiGit /> },
-      { name: 'Docker', icon: <SiDocker /> },
-      { name: 'AWS', icon: <FaAws /> },
-      { name: 'MS SQL Server', icon: <FaDatabase /> },
-      { name: 'Apache NiFi', icon: <SiApache /> },
-      { name: 'Jenkins', icon: <SiJenkins /> },
-      { name: 'PM2', icon: <SiPm2 /> },
-      { name: 'Bash', icon: <SiGnubash /> },
-      { name: 'NGinx', icon: <SiNginx /> },
-      { name: 'Postman', icon: <SiPostman /> },
-      { name: 'Linux', icon: <SiLinux /> },
-      { name: 'Windows', icon: <FaWindows /> },
+      { name: 'Git' },
+      { name: 'Docker' },
+      { name: 'AWS' },
+      { name: 'MS SQL Server' },
+      { name: 'Apache NiFi' },
+      { name: 'Jenkins' },
+      { name: 'PM2' },
+      { name: 'Bash' },
+      { name: 'NGinx' },
+      { name: 'Postman' },
+      { name: 'Linux' },
+      { name: 'Windows' },
     ],
   },
 ];
