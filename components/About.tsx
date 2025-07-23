@@ -11,7 +11,7 @@ const About = () => (
         I’ve contributed to open-source projects like SLEAP at the Salk Institute, worked on BPM systems at Cognizant, and developed cutting-edge AI applications at NLitenData.
         </p>
         <p className="mb-4">
-        Outside of work, I love learning about new AI tools, playing tennis, watching soccer (Go Liverpool!), and building side projects that push my technical and creative boundaries. Whether it's parsing documents, generating recommendations, or optimizing control systems with reinforcement learning, I’m always exploring new ways to solve meaningful problems with code.
+        Outside of work, I love learning about new AI tools, playing soccer (Huge Liverpool fan!), cricket and tennis, and building side projects that push my technical and creative boundaries. 
         </p>
       </div>
     </section>

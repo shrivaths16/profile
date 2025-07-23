@@ -3,12 +3,18 @@ import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 import Script from 'next/script'
+import { Montserrat } from 'next/font/google';
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat', // This creates a CSS variable for Tailwind
+});
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" defaultTheme='system' enableSystem>
+      <div className={'${montserrat.variable} font-sans'}>
       <Head>
-        {/* Replace your old link tag with all of these */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -23,6 +29,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       />
 
       <Component {...pageProps} />
+      </div>
     </ThemeProvider>
   )
 }
