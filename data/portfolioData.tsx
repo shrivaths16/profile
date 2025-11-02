@@ -80,67 +80,48 @@ export const skillCategories: SkillCategory[] = [
   {
     name: 'Programming Languages',
     skills: [
-      { name: 'Python', icon: <SiPython /> },
-      { name: 'JavaScript', icon: <SiJavascript /> },
-      { name: 'SQL', icon: <FaDatabase /> },
-      { name: 'HTML/CSS', icon: <SiHtml5 /> },
-      { name: 'C/C++', icon: <SiCplusplus /> },
+      { name: 'Python' },
+      { name: 'JavaScript' },
+      { name: 'SQL' },
+      { name: 'HTML/CSS' },
+      { name: 'C/C++' },
     ],
   },
   {
     name: 'Frameworks & Libraries',
     skills: [
-      { name: 'Pandas', icon: <SiPandas /> },
-      { name: 'Numpy', icon: <SiNumpy /> },
-      { name: 'PyTorch', icon: <SiPytorch /> },
-      { name: 'TensorFlow', icon: <SiTensorflow /> },
-      { name: 'Plotly', icon: <SiPlotly /> },
-      { name: 'FastAPI', icon: <SiFastapi /> },
-      { name: 'LangChain', icon: <SiLangchain /> },
-      { name: 'React', icon: <SiReact /> },
-      { name: 'Node.js', icon: <SiNodedotjs /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
+      { name: 'Pandas' },
+      { name: 'Numpy' },
+      { name: 'PyTorch' },
+      { name: 'TensorFlow' },
+      { name: 'Plotly' },
+      { name: 'FastAPI' },
+      { name: 'LangChain' },
+      { name: 'React' },
+      { name: 'Node.js' },
+      { name: 'Tailwind CSS' },
     ],
   },
   {
     name: 'Tools & Technologies',
     skills: [
-      { name: 'Git', icon: <SiGit /> },
-      { name: 'Docker', icon: <SiDocker /> },
-      { name: 'Terraform', icon: <SiTerraform /> },
-      { name: 'Azure', icon: <VscAzure /> },
-      { name: 'AWS', icon: <FaAws /> },
-      { name: 'MS SQL Server', icon: <FaDatabase/> },
-      { name: 'Apache NiFi', icon: <SiApache /> },
-      { name: 'Jenkins', icon: <SiJenkins /> },
-      { name: 'PM2', icon: <SiPm2 /> },
-      { name: 'Bash', icon: <SiGnubash /> },
-      { name: 'NGinx', icon: <SiNginx /> },
-      { name: 'Postman', icon: <SiPostman /> },
-      { name: 'Linux', icon: <SiLinux /> },
-      { name: 'Windows', icon: <FaWindows /> },
+      { name: 'Git' },
+      { name: 'Docker' },
+      { name: 'Terraform' },
+      { name: 'Azure' },
+      { name: 'AWS' },
+      { name: 'MS SQL Server' },
+      { name: 'Apache NiFi' },
+      { name: 'Jenkins' },
+      { name: 'PM2' },
+      { name: 'Bash' },
+      { name: 'NGinx' },
+      { name: 'Postman' },
+      { name: 'Linux' },
+      { name: 'Windows' },
     ],
   },
 ];
-// export interface SkillCategory {
-//   name: string;
-//   skills: string[];
-// }
-
-// export const skillCategories: SkillCategory[] = [
-//   {
-//     name: 'Programming Languages',
-//     skills: ['Python', 'JavaScript', 'SQL', 'HTML/CSS', 'Java', 'C/C++'],
-//   },
-//   {
-//     name: 'Frameworks, OS & Tools',
-//     skills: [
-//       'Pandas', 'PyTorch', 'Jenkins', 'Git', 'AWS', 'MS SQL Server',
-//       'Apache NiFi', 'Postman', 'FastAPI', 'ReactJS', 'PM2', 'NGinx',
-//       'Bash', 'Windows', 'Linux'
-//     ],
-//   },
-// ];
 
 // Experience
 
