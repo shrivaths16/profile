@@ -5,13 +5,15 @@ const About = () => (
       {/* Widen the container and increase text size */}
       <div className="max-w-5xl mx-auto text-xl text-center">
         <p className="mb-4">
-        I'm an AI Engineer and Full-Stack Developer passionate about building intelligent, scalable systems that bridge the gap between machine learning and real-world applications. With experience in Python, FastAPI, ReactJS, SQL, and cloud platforms like AWS, I’ve designed microservices, GPT-powered chatbots, and document parsers. I’ve built end-to-end ETL pipelines using Apache NiFi, optimized relational databases for performance, and deployed robust solutions using tools like NGINX, PM2, and Git. My work spans across AI model development, backend engineering, and front-end UI design — backed by a strong foundation in software engineering principles.
+        I'm an AI Engineer and Full-Stack Developer passionate about building intelligent, scalable systems that bridge the gap between machine learning and real-world applications.
         </p>
         <p className="mb-4">
-        I’ve contributed to open-source projects like SLEAP at the Salk Institute, worked on BPM systems at Cognizant, and developed cutting-edge AI applications at NLitenData.
+        With hands-on experience in Python, FastAPI, Node.js, and LangChain, I specialize in creating end-to-end, AI-driven solutions. My recent work involves designing scalable microservices, building AI agents for email classification, and developing context-aware GPT-4o chatbots and document parsers.
+        I manage the full-stack and cloud infrastructure. This includes building end-to-end ETL pipelines with Apache NiFi, designing optimized database schemas for Azure, and deploying on cloud VMs using Terraform (IaC), NGINX, and PM2. I integrate solutions with Cloudflare for security and performance and lead Scrum sprints to ensure our team delivers.
+        This practical application is built on a strong foundation of ML research from my time at the Salk Institute, where I contributed to the open-source SLEAP project, and enterprise-scale software engineering at Cognizant.
         </p>
         <p className="mb-4">
-        Outside of work, I love learning about new AI tools, playing soccer (Huge Liverpool fan!), cricket and tennis, and building side projects that push my technical and creative boundaries. 
+        Outside of work, I love learning new AI tools, playing soccer (huge Liverpool fan!), cricket, and tennis, and building side projects that push my technical and creative boundaries.
         </p>
       </div>
     </section>
