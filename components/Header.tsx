@@ -12,7 +12,7 @@ const Header = () => {
     { title: 'Projects', href: '#projects' },
     { title: 'Skills', href: '#skills' },
     { title: 'Contact', href: '#contact' },
-    { title: 'Resume', href: '/Shrivaths_Resume_June2025.pdf', download: true },
+    { title: 'Resume', href: '/Shrivaths_Resume_Oct2025.pdf', download: true },
   ];
 
   return (
@@ -77,7 +77,7 @@ const Header = () => {
               href={link.href} 
               className="text-3xl font-semibold hover:text-blue-500"
               onClick={() => setIsMenuOpen(false)}
-              download={link.download} // Add download attribute here too
+              download={link.download}
             >
               {link.title}
             </a>

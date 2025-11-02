@@ -30,7 +30,7 @@ const Hero = () => {
           `}
         >
           <Image
-            src="/profiledp6.PNG"
+            src="/profiledp.PNG"
             alt="Shrivaths Shyam"
             fill
             className="rounded-full object-cover"

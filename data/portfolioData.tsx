@@ -2,11 +2,14 @@ import {
   SiPython, SiJavascript, SiHtml5, SiCss3, SiCplusplus,
   SiPandas, SiPytorch, SiJenkins, SiGit, SiPostman, SiFastapi, SiReact, 
   SiNginx, SiLinux, SiTypescript, SiNodedotjs, SiDocker, SiTailwindcss, SiNextdotjs,
-  SiPm2, SiApache, SiGnubash, SiNumpy, SiTensorflow, SiPlotly
+  SiPm2, SiApache, SiGnubash, SiNumpy, SiTensorflow, SiPlotly,
+  SiTerraform, SiLangchain
 } from 'react-icons/si';
 
 // Add these imports from Font Awesome
-import { FaJava, FaAws, FaDatabase, FaWindows } from 'react-icons/fa';
+import { FaJava, FaAws, FaDatabase, FaWindows, FaMicrosoft } from 'react-icons/fa';
+import { VscAzure } from "react-icons/vsc";
+
 import { JSX } from 'react';
 
 // Projects
@@ -77,44 +80,45 @@ export const skillCategories: SkillCategory[] = [
   {
     name: 'Programming Languages',
     skills: [
-      { name: 'Python' },
-      { name: 'JavaScript' },
-      // { name: 'TypeScript', icon: <SiTypescript /> },
-      { name: 'SQL' },
-      { name: 'HTML/CSS' },
-      { name: 'Java' },
-      { name: 'C/C++' },
+      { name: 'Python', icon: <SiPython /> },
+      { name: 'JavaScript', icon: <SiJavascript /> },
+      { name: 'SQL', icon: <FaDatabase /> },
+      { name: 'HTML/CSS', icon: <SiHtml5 /> },
+      { name: 'C/C++', icon: <SiCplusplus /> },
     ],
   },
   {
     name: 'Frameworks & Libraries',
     skills: [
-      { name: 'Pandas' },
-      { name: 'Numpy' },
-      { name: 'PyTorch' },
-      { name: 'TensorFlow' },
-      { name: 'Plotly' },
-      { name: 'FastAPI' },
-      { name: 'React' },
-      { name: 'Node.js' },
-      { name: 'Tailwind CSS' },
+      { name: 'Pandas', icon: <SiPandas /> },
+      { name: 'Numpy', icon: <SiNumpy /> },
+      { name: 'PyTorch', icon: <SiPytorch /> },
+      { name: 'TensorFlow', icon: <SiTensorflow /> },
+      { name: 'Plotly', icon: <SiPlotly /> },
+      { name: 'FastAPI', icon: <SiFastapi /> },
+      { name: 'LangChain', icon: <SiLangchain /> },
+      { name: 'React', icon: <SiReact /> },
+      { name: 'Node.js', icon: <SiNodedotjs /> },
+      { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
     ],
   },
   {
     name: 'Tools & Technologies',
     skills: [
-      { name: 'Git' },
-      { name: 'Docker' },
-      { name: 'AWS' },
-      { name: 'MS SQL Server' },
-      { name: 'Apache NiFi' },
-      { name: 'Jenkins' },
-      { name: 'PM2' },
-      { name: 'Bash' },
-      { name: 'NGinx' },
-      { name: 'Postman' },
-      { name: 'Linux' },
-      { name: 'Windows' },
+      { name: 'Git', icon: <SiGit /> },
+      { name: 'Docker', icon: <SiDocker /> },
+      { name: 'Terraform', icon: <SiTerraform /> },
+      { name: 'Azure', icon: <VscAzure /> },
+      { name: 'AWS', icon: <FaAws /> },
+      { name: 'MS SQL Server', icon: <FaDatabase/> },
+      { name: 'Apache NiFi', icon: <SiApache /> },
+      { name: 'Jenkins', icon: <SiJenkins /> },
+      { name: 'PM2', icon: <SiPm2 /> },
+      { name: 'Bash', icon: <SiGnubash /> },
+      { name: 'NGinx', icon: <SiNginx /> },
+      { name: 'Postman', icon: <SiPostman /> },
+      { name: 'Linux', icon: <SiLinux /> },
+      { name: 'Windows', icon: <FaWindows /> },
     ],
   },
 ];
@@ -155,8 +159,8 @@ export const experiences: Experience[] = [
     title: 'AI Engineer',
     company: 'NLitendata LLC',
     location: 'San Diego, California, USA',
-    description: ['Built scalable data-driven applications and GPT-powered tools using FastAPI, Apache NiFi, and AWS.',
-    'Led full-stack development, ML modeling, and client-facing demos in an agile, cross-functional team.',]
+    description: ['Designed and deployed AI-driven microservices and automation systems leveraging FastAPI, Node.js, LangChain, and GPT-4o to streamline business workflows and data processing.',
+      'Experienced in end-to-end cloud infrastructure setup using Azure, Terraform, NiFi, and Cloudflare to deliver scalable, secure, and high-performance applications.',]
   },
   {
     year: 'Jul 2023 - Jun 2024',
